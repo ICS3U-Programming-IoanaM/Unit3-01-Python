@@ -3,7 +3,7 @@
 # Created By: Ioana Marinescu
 #
 # Date: Oct. 5, 2022
-# a program that calculated the tax
+# a program that calculated the tax of New Brunswick
 
 
 import constants
