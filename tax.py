@@ -8,17 +8,18 @@
 
 import constants
 
+
 def main():
-	# variables 
-	subtotal = float(input("Enter subtotal ($ CAD): "))
+    # variables
+    subtotal = float(input("Enter subtotal ($ CAD): "))
 
-	# calculations
-	tax = subtotal * constants.HST
-	total = subtotal + tax
+    # calculations
+    tax = subtotal * constants.HST
+    total = subtotal + tax
 
-	# displays total amount
-	print(f"Your total cost is ${total:.2f}")
+    # displays total amount
+    print(f"Your total cost is ${total:.2f}")
+
 
 if __name__ == "__main__":
-	main()
-	
+    main()
